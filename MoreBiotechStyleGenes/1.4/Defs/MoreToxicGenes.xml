@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--General Toxic resistance genes-->
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>ToxResist_Major</defName>
+        <label>major tox resistance</label>
+        <labelShortAdj>tox-resistant</labelShortAdj>
+        <description>Carriers of this gene are resistant to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain one quarter the amount of toxic buildup compared to others.\n\nCellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+        <iconPath>UI/Icons/Genes/Gene_PartialToxicityResistance</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <statOffsets>
+            <ToxicResistance>0.75</ToxicResistance>
+        </statOffsets>
+        <biostatMet>-3</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>ToxResist_Minor</defName>
+        <label>minor tox resistance</label>
+        <labelShortAdj>tox-resistant</labelShortAdj>
+        <description>Carriers of this gene are resistant to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain three quarters the amount of toxic buildup compared to others.\n\nCellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+        <iconPath>UI/Icons/Genes/Gene_PartialToxicityResistance</iconPath>
+        <displayOrderInCategory>-1</displayOrderInCategory>
+        <statOffsets>
+            <ToxicResistance>0.25</ToxicResistance>
+        </statOffsets>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>ToxResist_MinorWeakness</defName>
+        <label>minor tox vulnerability</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are weak to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain 125% the normal amount of toxic buildup compared to others.\n\nPoor cellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+        <iconPath>ToxWeakness</iconPath>
+        <displayOrderInCategory>-2</displayOrderInCategory>
+        <statOffsets>
+            <ToxicResistance>-0.25</ToxicResistance>
+        </statOffsets>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>ToxResist_Weakness</defName>
+        <label>tox vulnerability</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are weak to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain 150% the normal amount of toxic buildup compared to others.\n\nPoor cellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+        <iconPath>ToxWeakness</iconPath>
+        <displayOrderInCategory>-3</displayOrderInCategory>
+        <statOffsets>
+            <ToxicResistance>-0.5</ToxicResistance>
+        </statOffsets>
+        <biostatMet>2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>ToxResist_MajorWeakness</defName>
+        <label>major tox vulnerability</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are weak to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain 175% the normal amount of toxic buildup compared to others.\n\nPoor cellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+        <iconPath>MajorToxWeakness</iconPath>
+        <displayOrderInCategory>-4</displayOrderInCategory>
+        <statOffsets>
+            <ToxicResistance>-0.75</ToxicResistance>
+        </statOffsets>
+        <biostatMet>3</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>ToxResist_ExtremeWeakness</defName>
+        <label>fatal tox vulnerability</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are extremely weak to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain twice the normal amount of toxic buildup compared to others.\n\nPoor cellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+        <iconPath>MajorToxWeakness</iconPath>
+        <displayOrderInCategory>-5</displayOrderInCategory>
+        <statOffsets>
+            <ToxicResistance>-1.00</ToxicResistance>
+        </statOffsets>
+        <biostatMet>4</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <!--Antitoxic Lungs-->
+
+    <GeneDef ParentName="GenePollutionBase">
+        <defName>ToxEnviromentResist_Major</defName>
+        <label>major antitoxic lungs</label>
+        <labelShortAdj>tox-resistant</labelShortAdj>
+        <description>Carriers of this gene are resistant to environmental toxins. They get less toxic buildup from tox gas, polluted terrain, and toxic fallout, but are still vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure slower.</description>
+        <iconPath>UI/Icons/Genes/Gene_PartialPollutionResistance</iconPath>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <statOffsets>
+            <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+        </statOffsets>
+        <biostatMet>-2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GenePollutionBase">
+        <defName>ToxEnviromentResist_MinorWeakness</defName>
+        <label>minor tox-vulnerable lungs</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are vulnerable to environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout. Additionally, they build up rot stink exposure faster.</description>
+        <iconPath>ToxEnvironmentWeakness</iconPath>
+        <displayOrderInCategory>18</displayOrderInCategory>
+        <statOffsets>
+            <ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
+        </statOffsets>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GenePollutionBase">
+        <defName>ToxEnviromentResist_Weakness</defName>
+        <label>tox-vulnerable lungs</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are vulnerable to environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout. Additionally, they build up rot stink exposure faster.</description>
+        <iconPath>ToxEnvironmentWeakness</iconPath>
+        <displayOrderInCategory>17</displayOrderInCategory>
+        <statOffsets>
+            <ToxicEnvironmentResistance>-0.5</ToxicEnvironmentResistance>
+        </statOffsets>
+        <biostatMet>2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GenePollutionBase">
+        <defName>ToxEnviromentResist_MajorWeakness</defName>
+        <label>major tox-vulnerable lungs</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are vulnerable to environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout. Additionally, they build up rot stink exposure faster.</description>
+        <iconPath>MajorToxEnvironmentWeakness</iconPath>
+        <displayOrderInCategory>16</displayOrderInCategory>
+        <statOffsets>
+            <ToxicEnvironmentResistance>-0.75</ToxicEnvironmentResistance>
+        </statOffsets>
+        <biostatMet>3</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GenePollutionBase">
+        <defName>ToxEnviromentResist_ExtremeWeakness</defName>
+        <label>fatal tox-vulnerable lungs</label>
+        <labelShortAdj>tox-vulnerable</labelShortAdj>
+        <description>Carriers of this gene are extremely vulnerable to environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout. Additionally, they build up rot stink exposure faster.</description>
+        <iconPath>MajorToxEnvironmentWeakness</iconPath>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <statOffsets>
+            <ToxicEnvironmentResistance>-1.00</ToxicEnvironmentResistance>
+        </statOffsets>
+        <biostatMet>4</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>tox</symbol>
+                    <weight>3</weight>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
