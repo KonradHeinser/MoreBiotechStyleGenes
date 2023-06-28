@@ -48,7 +48,7 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationSequence">
+    <Operation Class="PatchOperationSequence" MayRequire="sarg.alphagenes">
         <operations>
             <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
                 <xpath>/Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
@@ -79,6 +79,48 @@
 			    <value>
 				    <hideGene>true</hideGene>
 			    </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence" MayRequire="vanillaracesexpanded.highmate">
+        <operations>
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			        <value>
+				        <hideGene>true</hideGene>
+			        </value>
+                </match>
+                <nomatch Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                    <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                        <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions</xpath>
+			            <value>
+                            <li Class="VanillaGenesExpanded.GeneExtension">
+				                <hideGene>true</hideGene>
+                            </li>
+			            </value>
+                    </match>
+                    <nomatch Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                        <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]</xpath>
+			            <value>
+                            <modExtensions>
+                                <li Class="VanillaGenesExpanded.GeneExtension">
+				                    <hideGene>true</hideGene>
+                                </li>
+                            </modExtensions>
+			            </value>
+                    </nomatch>
+                </nomatch>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/XenotypeDef[defName="VRE_Lowmate"]/genes/li[text()="VRE_Libido_VeryHigh"]</xpath>
+                <value>
+                    <li>Libido_VeryHigh</li>
+                </value>
             </li>
         </operations>
     </Operation>
