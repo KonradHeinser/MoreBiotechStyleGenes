@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Instability_Hyper</defName>
+        <label>hyper cell instability</label>
+        <description>Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery.</description>
+        <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
+        <displayOrderInCategory>135.3</displayOrderInCategory>
+        <biostatMet>7</biostatMet>
+        <statFactors>
+          <LifespanFactor>0.3</LifespanFactor>
+          <CancerRate>8</CancerRate>
+          <ImmunityGainSpeed>0.86</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Instability_Super</defName>
+        <label>super cell instability</label>
+        <description>Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery.</description>
+        <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
+        <displayOrderInCategory>135.2</displayOrderInCategory>
+        <biostatMet>6</biostatMet>
+        <statFactors>
+          <LifespanFactor>0.4</LifespanFactor>
+          <CancerRate>7</CancerRate>
+          <ImmunityGainSpeed>0.88</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Instability_Extreme</defName>
+        <label>extreme cell instability</label>
+        <description>Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery.</description>
+        <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
+        <displayOrderInCategory>135.1</displayOrderInCategory>
+        <biostatMet>5</biostatMet>
+        <statFactors>
+          <LifespanFactor>0.5</LifespanFactor>
+          <CancerRate>6</CancerRate>
+          <ImmunityGainSpeed>0.9</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Instability_Notable</defName>
+        <label>notable cell instability</label>
+        <description>Carriers of this gene need less metabolic energy to stay alive, at the cost of reduced stability in their cell-replication machinery.</description>
+        <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
+        <displayOrderInCategory>133</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <statFactors>
+          <LifespanFactor>0.7</LifespanFactor>
+          <CancerRate>4</CancerRate>
+          <ImmunityGainSpeed>0.94</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Instability_Minor</defName>
+        <label>minor cell instability</label>
+        <description>Carriers of this gene need less metabolic energy to stay alive, at the cost of reduced stability in their cell-replication machinery.</description>
+        <iconPath>UI/Icons/Genes/Gene_MildCellInstability</iconPath>
+        <displayOrderInCategory>129.9</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+          <LifespanFactor>0.9</LifespanFactor>
+          <CancerRate>2</CancerRate>
+          <ImmunityGainSpeed>0.98</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Minor</defName>
+        <label>minor cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for an increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/MildCellStability</iconPath>
+        <displayOrderInCategory>129.5</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.1</LifespanFactor>
+          <CancerRate>0.75</CancerRate>
+          <ImmunityGainSpeed>1.02</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Mild</defName>
+        <label>mild cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for an increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/MildCellStability</iconPath>
+        <displayOrderInCategory>129</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.2</LifespanFactor>
+          <CancerRate>0.5</CancerRate>
+          <ImmunityGainSpeed>1.04</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Notable</defName>
+        <label>notable cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for a large increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/MajorCellStability</iconPath>
+        <displayOrderInCategory>128.5</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.3</LifespanFactor>
+          <CancerRate>0.35</CancerRate>
+          <ImmunityGainSpeed>1.06</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Major</defName>
+        <label>major cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for a large increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/MajorCellStability</iconPath>
+        <displayOrderInCategory>128</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.4</LifespanFactor>
+          <CancerRate>0.2</CancerRate>
+          <ImmunityGainSpeed>1.08</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Extreme</defName>
+        <label>extreme cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for an extremely large increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/ExtremeCellStability</iconPath>
+        <displayOrderInCategory>127.5</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.5</LifespanFactor>
+          <CancerRate>0.15</CancerRate>
+          <ImmunityGainSpeed>1.10</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Super</defName>
+        <label>super cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for an extremely large increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/ExtremeCellStability</iconPath>
+        <displayOrderInCategory>127</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.6</LifespanFactor>
+          <CancerRate>0.1</CancerRate>
+          <ImmunityGainSpeed>1.12</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="CellInstabilityBase">
+        <defName>Stability_Hyper</defName>
+        <label>hyper cell stability</label>
+        <description>Carriers of this gene need more metabolic energy to stay alive, in exchange for an extremely large increase in stability of their cell-replication machinery.</description>
+        <iconPath>MBSG/ExtremeCellStability</iconPath>
+        <displayOrderInCategory>126.5</displayOrderInCategory>
+        <biostatMet>-7</biostatMet>
+        <statFactors>
+          <LifespanFactor>1.7</LifespanFactor>
+          <CancerRate>0.05</CancerRate>
+          <ImmunityGainSpeed>1.14</ImmunityGainSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>

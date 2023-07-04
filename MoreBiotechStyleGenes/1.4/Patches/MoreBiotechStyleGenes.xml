@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="Pain_Extra"]/forcedTraits</xpath>
+        <value>
+            <painFactor>1.5</painFactor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="PsychicAbility_Deaf"]/forcedTraits</xpath>
+        <value>
+            <statOffsets>
+              <PsychicSensitivity>-1.0</PsychicSensitivity>
+              <MeditationFocusGain>-0.1</MeditationFocusGain>
+              <PsychicEntropyRecoveryRate>-0.1</PsychicEntropyRecoveryRate>
+            </statOffsets>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="PsychicAbility_Dull"]/forcedTraits</xpath>
+        <value>
+            <statOffsets>
+              <PsychicSensitivity>-.5</PsychicSensitivity>
+              <MeditationFocusGain>-0.05</MeditationFocusGain>
+              <PsychicEntropyRecoveryRate>-0.05</PsychicEntropyRecoveryRate>
+            </statOffsets>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="Learning_Fast"]/statOffsets</xpath>
+        <value>
+            <statFactors>
+                <GlobalLearningFactor>1.5</GlobalLearningFactor>
+                <LearningRateFactor MayRequire="ChildrenCanLearnFast.Mod">1.5</LearningRateFactor>
+            </statFactors>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="Delicate"]/forcedTraits</xpath>
+        <value>
+            <statFactors>
+                <IncomingDamageFactor>1.15</IncomingDamageFactor>
+            </statFactors>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence" MayRequire="sarg.alphagenes">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			    <value>
+				    <hideGene>true</hideGene>
+			    </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/GeneDef[defName="AG_Painless"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			    <value>
+				    <hideGene>true</hideGene>
+			    </value>
+            </li>
+            <li Class="PatchOperationReplace" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/XenotypeDef/genes/li[text()="AG_Painless"]</xpath>
+                <value>
+                    <li>Pain_Immune</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/GeneDef[defName="AG_ToxicEnvironmentResistance_Frail"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			    <value>
+				    <hideGene>true</hideGene>
+			    </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/GeneDef[defName="AG_ToxResist_Vulnerability"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			    <value>
+				    <hideGene>true</hideGene>
+			    </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence" MayRequire="vanillaracesexpanded.highmate">
+        <operations>
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			        <value>
+				        <hideGene>true</hideGene>
+			        </value>
+                </match>
+                <nomatch Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                    <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                        <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions</xpath>
+			            <value>
+                            <li Class="VanillaGenesExpanded.GeneExtension">
+				                <hideGene>true</hideGene>
+                            </li>
+			            </value>
+                    </match>
+                    <nomatch Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                        <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]</xpath>
+			            <value>
+                            <modExtensions>
+                                <li Class="VanillaGenesExpanded.GeneExtension">
+				                    <hideGene>true</hideGene>
+                                </li>
+                            </modExtensions>
+			            </value>
+                    </nomatch>
+                </nomatch>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/XenotypeDef[defName="VRE_Lowmate"]/genes/li[text()="VRE_Libido_VeryHigh"]</xpath>
+                <value>
+                    <li>Libido_VeryHigh</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
