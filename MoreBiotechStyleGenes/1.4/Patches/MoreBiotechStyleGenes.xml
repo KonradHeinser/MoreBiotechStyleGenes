@@ -94,7 +94,7 @@
 			        </value>
                 </match>
                 <nomatch Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
-                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions</xpath>
                     <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
                         <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions</xpath>
 			            <value>
