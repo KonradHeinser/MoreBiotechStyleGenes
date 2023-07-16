@@ -48,41 +48,6 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationSequence" MayRequire="sarg.alphagenes">
-        <operations>
-            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-			    <value>
-				    <hideGene>true</hideGene>
-			    </value>
-            </li>
-            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/GeneDef[defName="AG_Painless"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-			    <value>
-				    <hideGene>true</hideGene>
-			    </value>
-            </li>
-            <li Class="PatchOperationReplace" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/XenotypeDef/genes/li[text()="AG_Painless"]</xpath>
-                <value>
-                    <li>Pain_Immune</li>
-                </value>
-            </li>
-            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/GeneDef[defName="AG_ToxicEnvironmentResistance_Frail"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-			    <value>
-				    <hideGene>true</hideGene>
-			    </value>
-            </li>
-            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/GeneDef[defName="AG_ToxResist_Vulnerability"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-			    <value>
-				    <hideGene>true</hideGene>
-			    </value>
-            </li>
-        </operations>
-    </Operation>
-
     <Operation Class="PatchOperationSequence" MayRequire="vanillaracesexpanded.highmate">
         <operations>
             <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">

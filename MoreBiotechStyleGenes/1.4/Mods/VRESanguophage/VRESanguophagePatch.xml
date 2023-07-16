@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationConditional" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/XenotypeDef[defName="AG_Malachai"]/genes/li[text()="AG_Painless"]</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/XenotypeDef[defName="AG_Malachai"]/genes/li[text()="AG_Painless"]</xpath>
+                    <value>
+                        <li>Pain_Immune</li>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationConditional" MayRequire="sarg.alphagenes">
+                    <xpath>/Defs/XenotypeDef[defName="AG_Malachai"]/genes/li[text()="Pain_Immune"]</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>/Defs/XenotypeDef[defName="AG_Malachai"]/genes</xpath>
+                        <value>
+                            <li>Pain_Immune</li>
+                        </value>
+                    </nomatch>
+                </nomatch>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

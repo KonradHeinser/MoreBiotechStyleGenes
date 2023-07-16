@@ -2,8 +2,10 @@
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
-		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/AdditionalPatches/VRESanguophage</li>	
-		<li IfModActive="vanillaracesexpanded.sanguophage_copy">1.4/AdditionalPatches/VRESanguophage</li>		
+		<li IfModActive="vanillaracesexpanded.sanguophage">1.4/Mods/VRESanguophage</li>	
+		<li IfModActive="vanillaracesexpanded.sanguophage_copy">1.4/Mods/VRESanguophage</li>
+        <li IfModActive="vanillaracesexpanded.genie">1.4/Mods/Genies</li>	
+        <li IfModActive="sarg.alphagenes">1.4/Mods/AlphaGenes</li>	
 	</v1.4>
 </loadFolders>
 
