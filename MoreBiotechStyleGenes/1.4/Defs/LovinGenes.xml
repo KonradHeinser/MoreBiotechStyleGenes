@@ -50,6 +50,12 @@
         <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
         <displayOrderInCategory>11</displayOrderInCategory>
         <lovinMTBFactor>.25</lovinMTBFactor>
+        <abilities>
+			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
+		</descriptionHyperlinks>
     </GeneDef>
 
     <GeneDef ParentName="LibidoBase">
@@ -62,6 +68,12 @@
         <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
         <displayOrderInCategory>12</displayOrderInCategory>
         <lovinMTBFactor>.14</lovinMTBFactor>
+        <abilities>
+			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
+		</descriptionHyperlinks>
     </GeneDef>
 
     <GeneDef ParentName="LibidoBase">
@@ -74,5 +86,11 @@
         <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
         <displayOrderInCategory>13</displayOrderInCategory>
         <lovinMTBFactor>.1</lovinMTBFactor>
+        <abilities>
+			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
+		</descriptionHyperlinks>
     </GeneDef>
 </Defs>

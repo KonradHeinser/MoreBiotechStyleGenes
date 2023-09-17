@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence" MayRequire="vanillaracesexpanded.highmate">
+        <operations>
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			        <value>
+				        <hideGene>true</hideGene>
+			        </value>
+                </match>
+                <nomatch Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+                    <match Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                        <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/modExtensions</xpath>
+			            <value>
+                            <li Class="VanillaGenesExpanded.GeneExtension">
+				                <hideGene>true</hideGene>
+                            </li>
+			            </value>
+                    </match>
+                    <nomatch Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                        <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]</xpath>
+			            <value>
+                            <modExtensions>
+                                <li Class="VanillaGenesExpanded.GeneExtension">
+				                    <hideGene>true</hideGene>
+                                </li>
+                            </modExtensions>
+			            </value>
+                    </nomatch>
+                </nomatch>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
