@@ -48,7 +48,7 @@
             <li>Increases the chance of lovin' to 4 times base. High libido is 2.</li>
         </customEffectDescriptions>
         <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
-        <displayOrderInCategory>11</displayOrderInCategory>
+        <displayOrderInCategory>10.1</displayOrderInCategory>
         <lovinMTBFactor>.25</lovinMTBFactor>
         <abilities>
 			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
@@ -66,7 +66,7 @@
             <li>Increases the chance of lovin' to 7 times base. High libido is 2.</li>
         </customEffectDescriptions>
         <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
-        <displayOrderInCategory>12</displayOrderInCategory>
+        <displayOrderInCategory>10.2</displayOrderInCategory>
         <lovinMTBFactor>.14</lovinMTBFactor>
         <abilities>
 			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
@@ -84,7 +84,7 @@
             <li>Increases the chance of lovin' to 10 times base. High libido is 2.</li>
         </customEffectDescriptions>
         <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
-        <displayOrderInCategory>13</displayOrderInCategory>
+        <displayOrderInCategory>10.3</displayOrderInCategory>
         <lovinMTBFactor>.1</lovinMTBFactor>
         <abilities>
 			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
