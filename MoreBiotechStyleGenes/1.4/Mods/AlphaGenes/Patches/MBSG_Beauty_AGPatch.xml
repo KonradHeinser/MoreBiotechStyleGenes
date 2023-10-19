@@ -33,9 +33,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/XenotypeDef/genes/li[text()="AG_Beauty_Angelic"]</xpath>
+        <xpath>Defs/XenotypeDef[defName="AG_Drakonori"]/genes/li[text()="AG_Beauty_Angelic"]</xpath>
         <match Class="PatchOperationReplace">
-            <xpath>Defs/XenotypeDef/genes/li[text()="AG_Beauty_Angelic"]</xpath>
+            <xpath>Defs/XenotypeDef[defName="AG_Drakonori"]/genes/li[text()="AG_Beauty_Angelic"]</xpath>
             <value>
                 <li>AG_Beauty_Angelic</li>
                 <li>Beauty_Beautiful</li>
@@ -44,9 +44,9 @@
     </Operation>
 
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/XenotypeDef/genes/li[text()="AG_Beauty_VeryVeryUgly"]</xpath>
+        <xpath>Defs/XenotypeDef[defName="AG_Helixien" or defName="AG_Taukai"]/genes/li[text()="AG_Beauty_VeryVeryUgly"]</xpath>
         <match Class="PatchOperationReplace">
-            <xpath>Defs/XenotypeDef/genes/li[text()="AG_Beauty_VeryVeryUgly"]</xpath>
+            <xpath>Defs/XenotypeDef[defName="AG_Helixien" or defName="AG_Taukai"]/genes/li[text()="AG_Beauty_VeryVeryUgly"]</xpath>
             <value>
                 <li>AG_Beauty_VeryVeryUgly</li>
                 <li>Beauty_VeryUgly</li>
