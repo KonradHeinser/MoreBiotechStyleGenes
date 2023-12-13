@@ -47,7 +47,7 @@
 
             <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
                 <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/description</xpath>
-                <value><description>carriers of this gene are innately capable of reducing pregnancy chance from lovin to 0. They will still gain the benefits of lovin. This is toggled in the pregnancy approach dropdown.\n\nThis was originally the very high libido gene from VRE Highmates. The ability has been moved to some of the higher libido genes, and the loving chance this initially had has been removed.</description></value>
+                <value><description>Carriers of this gene are innately capable of reducing pregnancy chance from lovin to 0. They will still gain the benefits of lovin. This is toggled in the pregnancy approach dropdown.\n\nThis was originally the very high libido gene from VRE Highmates. The ability has been moved to some of the higher libido genes, and the loving chance this initially had has been removed.</description></value>
             </li>
 
             <li Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
