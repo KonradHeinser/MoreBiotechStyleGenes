@@ -9,7 +9,7 @@
         <customEffectDescriptions>
             <li>Decreases the chance of lovin' to 1/10 of base. Low libido is 1/2.</li>
         </customEffectDescriptions>
-        <iconPath>UI/Icons/Genes/Gene_LowLibido</iconPath>
+        <iconPath>MBSG/Gene_ExtremelyLowLibido</iconPath>
         <displayOrderInCategory>-1</displayOrderInCategory>
         <lovinMTBFactor>10</lovinMTBFactor>
     </GeneDef>
@@ -21,7 +21,7 @@
         <customEffectDescriptions>
             <li>Decreases the chance of lovin' to 1/5 of base. Low libido is 1/2.</li>
         </customEffectDescriptions>
-        <iconPath>UI/Icons/Genes/Gene_LowLibido</iconPath>
+        <iconPath>MBSG/Gene_VeryLowLibido</iconPath>
         <displayOrderInCategory>-.5</displayOrderInCategory>
         <lovinMTBFactor>5</lovinMTBFactor>
     </GeneDef>
@@ -35,7 +35,7 @@
         <customEffectDescriptions>
             <li>Increases the chance of lovin' to 1.5 times base. High libido is 2.</li>
         </customEffectDescriptions>
-        <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
+        <iconPath>MBSG/Gene_AboveAverageLibido</iconPath>
         <displayOrderInCategory>5</displayOrderInCategory>
         <lovinMTBFactor>.75</lovinMTBFactor>
     </GeneDef>
@@ -47,7 +47,7 @@
         <customEffectDescriptions>
             <li>Increases the chance of lovin' to 4 times base. High libido is 2.</li>
         </customEffectDescriptions>
-        <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
+        <iconPath>MBSG/Gene_VeryHighLibido</iconPath>
         <displayOrderInCategory>10.1</displayOrderInCategory>
         <lovinMTBFactor>.25</lovinMTBFactor>
         <abilities>
@@ -65,7 +65,7 @@
         <customEffectDescriptions>
             <li>Increases the chance of lovin' to 7 times base. High libido is 2.</li>
         </customEffectDescriptions>
-        <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
+        <iconPath>MBSG/Gene_SuperHighLibido</iconPath>
         <displayOrderInCategory>10.2</displayOrderInCategory>
         <lovinMTBFactor>.14</lovinMTBFactor>
         <abilities>
@@ -83,7 +83,7 @@
         <customEffectDescriptions>
             <li>Increases the chance of lovin' to 10 times base. High libido is 2.</li>
         </customEffectDescriptions>
-        <iconPath>UI/Icons/Genes/Gene_HighLibido</iconPath>
+        <iconPath>MBSG/Gene_HyperLibido</iconPath>
         <displayOrderInCategory>10.3</displayOrderInCategory>
         <lovinMTBFactor>.1</lovinMTBFactor>
         <abilities>
