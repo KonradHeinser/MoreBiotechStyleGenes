@@ -59,6 +59,7 @@
       <MeleeDamageFactor>1.75</MeleeDamageFactor>
     </statFactors>
     <biostatMet>-3</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <symbolPack>
       <wholeNameSymbols>
         <li><symbol>basher</symbol></li>
@@ -85,6 +86,7 @@
       <MeleeDamageFactor>2</MeleeDamageFactor>
     </statFactors>
     <biostatMet>-4</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <symbolPack>
       <wholeNameSymbols>
         <li><symbol>basher</symbol></li>

@@ -25,7 +25,7 @@
         <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
         <displayOrderInCategory>-1</displayOrderInCategory>
         <biostatMet>7</biostatMet>
-        <biostatCpx>3</biostatCpx>
+        <biostatCpx>2</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li><symbol>sad</symbol></li>

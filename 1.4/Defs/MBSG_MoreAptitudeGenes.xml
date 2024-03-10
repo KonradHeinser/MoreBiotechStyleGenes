@@ -43,7 +43,7 @@
     <aptitudeOffset>12</aptitudeOffset>
     <passionModType>AddOneLevel</passionModType>
     <displayOrderOffset>31</displayOrderOffset>
-    <biostatCpx>3</biostatCpx>
+    <biostatCpx>2</biostatCpx>
     <biostatMet>-4</biostatMet>
   </GeneTemplateDef>
 
