@@ -9,14 +9,14 @@
         <displayOrderInCategory>32</displayOrderInCategory>
         <marketValueFactor>1.5</marketValueFactor>
         <painFactor>0</painFactor>
-        <biostatCpx>3</biostatCpx>
+        <biostatCpx>2</biostatCpx>
         <biostatMet>-3</biostatMet>
         <symbolPack>
-            <prefixSymbols>
-                <li><symbol>dull</symbol></li>
-                <li><symbol>daze</symbol></li>
-                <li><symbol>tough</symbol></li>
-            </prefixSymbols>
+        <prefixSymbols>
+            <li><symbol>dull</symbol></li>
+            <li><symbol>daze</symbol></li>
+            <li><symbol>tough</symbol></li>
+        </prefixSymbols>
         </symbolPack>
     </GeneDef>
 
@@ -29,14 +29,14 @@
         <displayOrderInCategory>31</displayOrderInCategory>
         <marketValueFactor>1.25</marketValueFactor>
         <painFactor>0.25</painFactor>
-        <biostatCpx>2</biostatCpx>
+        <biostatCpx>1</biostatCpx>
         <biostatMet>-2</biostatMet>
         <symbolPack>
-            <prefixSymbols>
-                <li><symbol>dull</symbol></li>
-                <li><symbol>daze</symbol></li>
-                <li><symbol>tough</symbol></li>
-            </prefixSymbols>
+        <prefixSymbols>
+        <li><symbol>dull</symbol></li>
+        <li><symbol>daze</symbol></li>
+        <li><symbol>tough</symbol></li>
+        </prefixSymbols>
         </symbolPack>
     </GeneDef>
 
@@ -94,6 +94,7 @@
         <iconPath>UI/Icons/Genes/Gene_ExtraPain</iconPath>
         <painFactor>2</painFactor>
         <displayOrderInCategory>18</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
         <biostatMet>4</biostatMet>
         <symbolPack>
             <prefixSymbols>

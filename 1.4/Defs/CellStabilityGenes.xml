@@ -7,6 +7,7 @@
         <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
         <displayOrderInCategory>135.3</displayOrderInCategory>
         <biostatMet>7</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <statFactors>
           <LifespanFactor>0.3</LifespanFactor>
           <CancerRate>8</CancerRate>
@@ -21,6 +22,7 @@
         <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
         <displayOrderInCategory>135.2</displayOrderInCategory>
         <biostatMet>6</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <statFactors>
           <LifespanFactor>0.4</LifespanFactor>
           <CancerRate>7</CancerRate>
@@ -35,6 +37,7 @@
         <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
         <displayOrderInCategory>135.1</displayOrderInCategory>
         <biostatMet>5</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <statFactors>
           <LifespanFactor>0.5</LifespanFactor>
           <CancerRate>6</CancerRate>
@@ -105,6 +108,7 @@
         <iconPath>MBSG/MajorCellStability</iconPath>
         <displayOrderInCategory>128.5</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <statFactors>
           <LifespanFactor>1.3</LifespanFactor>
           <CancerRate>0.35</CancerRate>
@@ -119,6 +123,7 @@
         <iconPath>MBSG/MajorCellStability</iconPath>
         <displayOrderInCategory>128</displayOrderInCategory>
         <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <statFactors>
           <LifespanFactor>1.4</LifespanFactor>
           <CancerRate>0.2</CancerRate>
@@ -133,6 +138,7 @@
         <iconPath>MBSG/ExtremeCellStability</iconPath>
         <displayOrderInCategory>127.5</displayOrderInCategory>
         <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
         <statFactors>
           <LifespanFactor>1.5</LifespanFactor>
           <CancerRate>0.15</CancerRate>
@@ -147,6 +153,7 @@
         <iconPath>MBSG/ExtremeCellStability</iconPath>
         <displayOrderInCategory>127</displayOrderInCategory>
         <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
         <statFactors>
           <LifespanFactor>1.6</LifespanFactor>
           <CancerRate>0.1</CancerRate>
@@ -161,8 +168,9 @@
         <iconPath>MBSG/ExtremeCellStability</iconPath>
         <displayOrderInCategory>126.5</displayOrderInCategory>
         <biostatMet>-7</biostatMet>
+        <biostatCpx>4</biostatCpx>
         <statFactors>
-          <LifespanFactor>1.7</LifespanFactor>
+          <LifespanFactor>1.8</LifespanFactor>
           <CancerRate>0.05</CancerRate>
           <ImmunityGainSpeed>1.14</ImmunityGainSpeed>
         </statFactors>

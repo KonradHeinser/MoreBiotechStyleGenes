@@ -7,6 +7,7 @@
         <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
         <displayOrderInCategory>-2</displayOrderInCategory>
         <biostatMet>9</biostatMet>
+        <biostatCpx>3</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li><symbol>sad</symbol></li>
@@ -24,6 +25,7 @@
         <iconPath>UI/Icons/Genes/Gene_Depressive</iconPath>
         <displayOrderInCategory>-1</displayOrderInCategory>
         <biostatMet>7</biostatMet>
+        <biostatCpx>3</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li><symbol>sad</symbol></li>
@@ -88,10 +90,10 @@
     <GeneDef ParentName="GeneMoodBase">
         <defName>Mood_VerySanguine</defName>
         <label>extremely happy</label>
-        <description>Carriers of this gene are extremely predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others.</description>
+        <description>Carriers of this gene are highly predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others.</description>
         <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
         <displayOrderInCategory>31</displayOrderInCategory>
-        <biostatCpx>4</biostatCpx>
+        <biostatCpx>3</biostatCpx>
         <biostatMet>-3</biostatMet>
         <symbolPack>
             <prefixSymbols>
@@ -111,10 +113,10 @@
     <GeneDef ParentName="GeneMoodBase">
         <defName>Mood_SuperSanguine</defName>
         <label>super happy</label>
-        <description>Carriers of this gene are super predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others.</description>
+        <description>Carriers of this gene are highly predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others.</description>
         <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
         <displayOrderInCategory>32</displayOrderInCategory>
-        <biostatCpx>5</biostatCpx>
+        <biostatCpx>4</biostatCpx>
         <biostatMet>-4</biostatMet>
         <symbolPack>
             <prefixSymbols>

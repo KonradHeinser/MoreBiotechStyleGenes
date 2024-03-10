@@ -10,7 +10,7 @@
     <statOffsets>
       <MoveSpeed>-0.6</MoveSpeed>
     </statOffsets>
-    <biostatCpx>2</biostatCpx>
+    <biostatCpx>3</biostatCpx>
     <biostatMet>7</biostatMet>
     <symbolPack>
       <prefixSymbols>
@@ -67,6 +67,7 @@
       <MoveSpeed>-0.4</MoveSpeed>
     </statOffsets>
     <biostatMet>5</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>slow</symbol></li>
@@ -94,6 +95,7 @@
       <MoveSpeed>-0.3</MoveSpeed>
     </statOffsets>
     <biostatMet>4</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>slow</symbol></li>

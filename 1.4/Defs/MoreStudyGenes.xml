@@ -114,7 +114,7 @@
             <GlobalLearningFactor>1.75</GlobalLearningFactor>
             <LearningRateFactor MayRequire="ChildrenCanLearnFast.Mod">1.75</LearningRateFactor>
         </statFactors>
-        <biostatCpx>3</biostatCpx>
+        <biostatCpx>2</biostatCpx>
         <biostatMet>-4</biostatMet>
         <symbolPack>
             <prefixSymbols>
@@ -142,7 +142,7 @@
             <GlobalLearningFactor>2.0</GlobalLearningFactor>
             <LearningRateFactor MayRequire="ChildrenCanLearnFast.Mod">2.0</LearningRateFactor>
         </statFactors>
-        <biostatCpx>4</biostatCpx>
+        <biostatCpx>3</biostatCpx>
         <biostatMet>-5</biostatMet>
         <symbolPack>
             <prefixSymbols>

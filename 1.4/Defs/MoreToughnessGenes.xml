@@ -80,6 +80,7 @@
             <IncomingDamageFactor>0.63</IncomingDamageFactor>
         </statFactors>
         <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li><symbol>tough</symbol></li>
@@ -104,6 +105,7 @@
             <IncomingDamageFactor>0.50</IncomingDamageFactor>
         </statFactors>
         <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li><symbol>tough</symbol></li>

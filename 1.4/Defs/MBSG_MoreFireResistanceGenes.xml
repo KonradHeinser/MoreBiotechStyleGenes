@@ -15,6 +15,7 @@
       <Flame>0</Flame>
     </damageFactors>
     <biostatMet>-3</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>foam</symbol></li>

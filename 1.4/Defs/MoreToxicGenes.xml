@@ -12,6 +12,7 @@
             <ToxicResistance>0.75</ToxicResistance>
         </statOffsets>
         <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li>
@@ -117,6 +118,7 @@
             <ToxicResistance>-1.00</ToxicResistance>
         </statOffsets>
         <biostatMet>4</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li>
@@ -224,6 +226,7 @@
             <ToxicEnvironmentResistance>-1.00</ToxicEnvironmentResistance>
         </statOffsets>
         <biostatMet>4</biostatMet>
+        <biostatCpx>2</biostatCpx>
         <symbolPack>
             <prefixSymbols>
                 <li>

@@ -189,6 +189,7 @@
     <iconPath>MBSG/Gene_UVResponsive</iconPath>
     <displayOrderInCategory>39.5</displayOrderInCategory>
     <biostatMet>-3</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
         <statFactors>
@@ -215,6 +216,7 @@
     <iconPath>MBSG/Gene_UVResponsive</iconPath>
     <displayOrderInCategory>39.4</displayOrderInCategory>
     <biostatMet>-4</biostatMet>
+    <biostatCpx>2</biostatCpx>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
         <statFactors>
@@ -241,6 +243,7 @@
     <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
     <displayOrderInCategory>39.3</displayOrderInCategory>
     <biostatMet>-5</biostatMet>
+    <biostatCpx>3</biostatCpx>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
         <statFactors>
@@ -267,6 +270,7 @@
     <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
     <displayOrderInCategory>39.2</displayOrderInCategory>
     <biostatMet>-6</biostatMet>
+    <biostatCpx>3</biostatCpx>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
         <statFactors>
@@ -293,6 +297,7 @@
     <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
     <displayOrderInCategory>39.1</displayOrderInCategory>
     <biostatMet>-7</biostatMet>
+    <biostatCpx>3</biostatCpx>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
         <statFactors>

@@ -12,7 +12,7 @@
       <ImmunityGainSpeed>2</ImmunityGainSpeed>
     </statFactors>
     <biostatMet>-3</biostatMet>
-    <biostatCpx>3</biostatCpx>
+    <biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>stout</symbol></li>
@@ -52,7 +52,7 @@
     <statFactors>
       <ImmunityGainSpeed>0.75</ImmunityGainSpeed>
     </statFactors>
-    <biostatCpx>2</biostatCpx>
+    <biostatCpx>1</biostatCpx>
     <biostatMet>3</biostatMet>
     <symbolPack>
       <prefixSymbols>
@@ -75,7 +75,7 @@
     <statFactors>
       <ImmunityGainSpeed>0.5</ImmunityGainSpeed>
     </statFactors>
-    <biostatCpx>3</biostatCpx>
+    <biostatCpx>2</biostatCpx>
     <biostatMet>4</biostatMet>
     <symbolPack>
       <prefixSymbols>
