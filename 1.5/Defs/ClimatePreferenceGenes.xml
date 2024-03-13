@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneMaxTempBase">
+    <defName>ClimatePreference_SuperCold</defName>
+    <label>extreme cold climate preference</label>
+    <labelShortAdj>freezing</labelShortAdj>
+    <description>Carriers of this gene are only comfortable in extremely cold climates, and may die if they remain in a warmer one for too long. The comfort range with this gene is -14°C to -4°C.</description>
+    <iconPath>UI/Icons/Genes/Gene_MinTemperatureLargeDecrease</iconPath>
+    <displayOrderInCategory>-4</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>-30</ComfyTemperatureMax>
+    </statOffsets>
+    <biostatMet>3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>cold</symbol></li>
+        <li><symbol>cool</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>MaxTemperature</li>
+      <li>SuperTemp</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMaxTempBase">
+    <defName>ClimatePreference_Cold</defName>
+    <label>cold climate preference</label>
+    <labelShortAdj>freezing</labelShortAdj>
+    <description>Carriers of this gene are only comfortable in colder climates, and may die if they remain in a warmer one for too long. The comfort range with this gene is 1°C to 11°C.</description>
+    <iconPath>UI/Icons/Genes/Gene_MinTemperatureLargeDecrease</iconPath>
+    <displayOrderInCategory>-3</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>-15</ComfyTemperatureMax>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>cold</symbol></li>
+        <li><symbol>cool</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>MaxTemperature</li>
+      <li>SuperTemp</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMaxTempBase">
+    <defName>ClimatePreference_Hot</defName>
+    <label>hot climate preference</label>
+    <labelShortAdj>melting</labelShortAdj>
+    <description>Carriers of this gene are only comfortable in warmer climates, and may die if they remain in a colder one for too long. The comfort range with this gene is 31°C to 41°C.</description>
+    <iconPath>UI/Icons/Genes/Gene_MaxTemperatureLargeIncrease</iconPath>
+    <displayOrderInCategory>-2</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>cold</symbol></li>
+        <li><symbol>cool</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>MinTemperature</li>
+      <li>SuperTemp</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMaxTempBase">
+    <defName>ClimatePreference_SuperHot</defName>
+    <label>extreme hot climate preference</label>
+    <labelShortAdj>melting</labelShortAdj>
+    <description>Carriers of this gene are only comfortable in extremely hot climates, and may die if they remain in a colder one for too long. The comfort range with this gene is 46°C to 56°C.</description>
+    <iconPath>UI/Icons/Genes/Gene_MaxTemperatureLargeIncrease</iconPath>
+    <displayOrderInCategory>-1</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
+    </statOffsets>
+    <biostatMet>3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>cold</symbol></li>
+        <li><symbol>cool</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>MinTemperature</li>
+      <li>SuperTemp</li>
+    </exclusionTags>
+  </GeneDef>
+</Defs>

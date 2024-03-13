@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence" MayRequire="vanillaracesexpanded.highmate">
+        <operations>
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/abilites/li[text()="VRE_InitiateLovin"]</xpath>
+                <match Class="PatchOperationRemove" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/abilities/li[text()="VRE_InitiateLovin"]</xpath>
+                </match>
+            </li>
+
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/descriptionHyperlinks/AbilityDef[text()="VRE_InitiateLovin"]</xpath>
+                <match Class="PatchOperationRemove" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/descriptionHyperlinks/AbilityDef[text()="VRE_InitiateLovin"]</xpath>
+                </match>
+            </li>
+
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/lovinMTBFactor</xpath>
+                <match Class="PatchOperationRemove" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/lovinMTBFactor</xpath>
+                </match>
+            </li>
+
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/customEffectDescriptions</xpath>
+                <match Class="PatchOperationRemove" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/customEffectDescriptions</xpath>
+                </match>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/displayOrderInCategory</xpath>
+                <value><displayOrderInCategory>10.4</displayOrderInCategory></value>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/biostatMet</xpath>
+                <value><biostatMet>-1</biostatMet></value>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/label</xpath>
+                <value><label>lovin for pleasure</label></value>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/description</xpath>
+                <value><description>Carriers of this gene are innately capable of reducing pregnancy chance from lovin to 0. They will still gain the benefits of lovin. This is toggled in the pregnancy approach dropdown.\n\nThis was originally the very high libido gene from VRE Highmates. The ability has been moved to some of the higher libido genes, and the loving chance this initially had has been removed.</description></value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/GeneDef[defName="VRE_Libido_VeryHigh"]</xpath>
+                <value><exclusionTags Inherit="false" /></value>
+            </li>
+
+            <li Class="PatchOperationConditional" MayRequire="vanillaracesexpanded.highmate">
+                <xpath>/Defs/XenotypeDef/genes/li[text()="VRE_Libido_VeryHigh"]</xpath>
+                <match Class="PatchOperationReplace" MayRequire="vanillaracesexpanded.highmate">
+                    <xpath>/Defs/XenotypeDef/genes/li[text()="VRE_Libido_VeryHigh"]</xpath>
+			        <value>
+				        <li>VRE_Libido_VeryHigh</li>
+                        <li>Libido_VeryHigh</li>
+			        </value>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="vanillaracesexpanded.genie">
+                <xpath>/Defs/GeneTemplateDef[defName="VRE_AptitudePhenomenal"]</xpath>
+                <value>
+                    <modExtensions>
+                        <li Class="VanillaGenesExpanded.GeneExtension">
+                            <hideGene>true</hideGene>
+                        </li>
+                    </modExtensions>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
