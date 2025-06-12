@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneTemplateDef ParentName="GeneAptitudeBase">
+    <defName>AptitudeInept</defName>
+    <label>{0} inept</label>
+    <description>The carrier's aptitude in {0} is reduced by 20, rendering it nigh-unusable. Additionally, all passion is removed from {0}.</description>
+    <iconPath>UI/Icons/Genes/Skills/{0}/Terrible</iconPath>
+    <aptitudeOffset>-20</aptitudeOffset>
+    <passionModType>DropAll</passionModType>
+    <displayOrderOffset>-3</displayOrderOffset>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>4</biostatMet>
+  </GeneTemplateDef>
+
+  <GeneTemplateDef ParentName="GeneAptitudeBase">
+    <defName>AptitudeAbysmal</defName>
+    <label>abysmal {0}</label>
+    <description>The carrier's aptitude in {0} is reduced by 14. Aptitude acts like an offset on skill level. Additionally, all passion is removed from {0}.</description>
+    <iconPath>UI/Icons/Genes/Skills/{0}/Terrible</iconPath>
+    <aptitudeOffset>-14</aptitudeOffset>
+    <passionModType>DropAll</passionModType>
+    <displayOrderOffset>-1</displayOrderOffset>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneTemplateDef>
+
+  <GeneTemplateDef ParentName="GeneAptitudeBase">
+    <defName>AptitudeDecent</defName>
+    <label>decent {0}</label>
+    <description>The carrier's aptitude in {0} is increased by 8. Aptitude acts like an offset on skill level.</description>
+    <iconPath>UI/Icons/Genes/Skills/{0}/Strong</iconPath>
+    <aptitudeOffset>8</aptitudeOffset>
+    <displayOrderOffset>25</displayOrderOffset>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneTemplateDef>
+
+  <GeneTemplateDef ParentName="GeneAptitudeBase">
+    <defName>AptitudePhenomenal</defName>
+    <label>phenomenal {0}</label>
+    <description>The carrier's aptitude in {0} is increased by 12. Aptitude acts like an offset on skill level. Additionally, one level of passion is added to {0}.</description>
+    <iconPath>UI/Icons/Genes/Skills/{0}/Remarkable</iconPath>
+    <aptitudeOffset>12</aptitudeOffset>
+    <passionModType>AddOneLevel</passionModType>
+    <displayOrderOffset>31</displayOrderOffset>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  </GeneTemplateDef>
+
+  <GeneTemplateDef ParentName="GeneAptitudeBase">
+    <defName>AptitudeInstinctive</defName>
+    <label>instinctive {0}</label>
+    <description>The carrier's aptitude in {0} is increased by 20. Because of the instinctive nature of this ability, this pawn will never be passionate about it.</description>
+    <iconPath>UI/Icons/Genes/Skills/{0}/Remarkable</iconPath>
+    <aptitudeOffset>20</aptitudeOffset>
+    <passionModType>DropAll</passionModType>
+    <displayOrderOffset>32</displayOrderOffset>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneTemplateDef>
+</Defs>

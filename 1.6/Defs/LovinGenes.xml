@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--Lower Libido genes-->
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>Libido_ExtremelyLow</defName>
+        <label>extremely low libido</label>
+        <description>Carriers of this gene are a extremely unlikely to engage in lovin' with their partner.</description>
+        <customEffectDescriptions>
+            <li>Decreases the chance of lovin' to 1/10 of base. Low libido is 1/2.</li>
+        </customEffectDescriptions>
+        <iconPath>MBSG/Gene_ExtremelyLowLibido</iconPath>
+        <displayOrderInCategory>-1</displayOrderInCategory>
+        <lovinMTBFactor>10</lovinMTBFactor>
+    </GeneDef>
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>Libido_VeryLow</defName>
+        <label>very low libido</label>
+        <description>Carriers of this gene are a lot less likely to engage in lovin' with their partner.</description>
+        <customEffectDescriptions>
+            <li>Decreases the chance of lovin' to 1/5 of base. Low libido is 1/2.</li>
+        </customEffectDescriptions>
+        <iconPath>MBSG/Gene_VeryLowLibido</iconPath>
+        <displayOrderInCategory>-.5</displayOrderInCategory>
+        <lovinMTBFactor>5</lovinMTBFactor>
+    </GeneDef>
+
+    <!--Higher Libido genes-->
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>Libido_AboveAverage</defName>
+        <label>above average libido</label>
+        <description>Carriers of this gene are a slightly more likely to engage in lovin' with their partner.</description>
+        <customEffectDescriptions>
+            <li>Increases the chance of lovin' to 1.5 times base. High libido is 2.</li>
+        </customEffectDescriptions>
+        <iconPath>MBSG/Gene_AboveAverageLibido</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <lovinMTBFactor>.75</lovinMTBFactor>
+    </GeneDef>
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>Libido_VeryHigh</defName>
+        <label>very high libido</label>
+        <description>Carriers of this gene are a a lot more likely to engage in lovin' with their partner.</description>
+        <customEffectDescriptions>
+            <li>Increases the chance of lovin' to 4 times base. High libido is 2.</li>
+        </customEffectDescriptions>
+        <iconPath>MBSG/Gene_VeryHighLibido</iconPath>
+        <displayOrderInCategory>10.1</displayOrderInCategory>
+        <lovinMTBFactor>.25</lovinMTBFactor>
+        <abilities>
+			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
+		</descriptionHyperlinks>
+    </GeneDef>
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>Libido_SuperHigh</defName>
+        <label>super libido</label>
+        <description>Carriers of this gene have an extremely high chance to want to engage in lovin' with their partner.</description>
+        <customEffectDescriptions>
+            <li>Increases the chance of lovin' to 7 times base. High libido is 2.</li>
+        </customEffectDescriptions>
+        <iconPath>MBSG/Gene_SuperHighLibido</iconPath>
+        <displayOrderInCategory>10.2</displayOrderInCategory>
+        <lovinMTBFactor>.14</lovinMTBFactor>
+        <abilities>
+			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
+		</descriptionHyperlinks>
+    </GeneDef>
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>Libido_Hyper</defName>
+        <label>hyper libido</label>
+        <description>Carriers of this gene are so likely to engage in lovin' with their partner that it is problematic. This gene is believed to have come into existance due to a particularly cruel scientist who wanted to increase the number of test rats they had.</description>
+        <customEffectDescriptions>
+            <li>Increases the chance of lovin' to 10 times base. High libido is 2.</li>
+        </customEffectDescriptions>
+        <iconPath>MBSG/Gene_HyperLibido</iconPath>
+        <displayOrderInCategory>10.3</displayOrderInCategory>
+        <lovinMTBFactor>.1</lovinMTBFactor>
+        <abilities>
+			<li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
+		</descriptionHyperlinks>
+    </GeneDef>
+</Defs>
