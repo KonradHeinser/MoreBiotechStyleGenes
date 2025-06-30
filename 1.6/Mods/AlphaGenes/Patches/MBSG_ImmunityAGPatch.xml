@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value>
 		    <hideGene>true</hideGene>
 	    </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_Painless"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-	    <value>
-		    <hideGene>true</hideGene>
-	    </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/XenotypeDef/genes/li[text()="AG_Painless"]</xpath>
-        <value>
-            <li>Pain_Immune</li>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_ToxicEnvironmentResistance_Frail"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>Defs/GeneDef[defName="AG_Painless"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value>
 		    <hideGene>true</hideGene>
 	    </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_ToxResist_Vulnerability"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>Defs/GeneDef[defName="AG_ToxicEnvironmentResistance_Frail"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
+	    <value>
+		    <hideGene>true</hideGene>
+	    </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="AG_ToxResist_Vulnerability"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value>
 		    <hideGene>true</hideGene>
 	    </value>

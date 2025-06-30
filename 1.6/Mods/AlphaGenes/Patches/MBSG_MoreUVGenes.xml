@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_UVSensitivity_Minor"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>Defs/GeneDef[defName="AG_UVSensitivity_Minor"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value>
 		    <hideGene>true</hideGene>
 	    </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/XenotypeDef/genes/li[text()="AG_UVSensitivity_Minor"]</xpath>
-        <value>
-            <li>MBSG_UVSensitivity_VeryMinor</li>
-        </value>
     </Operation>
 </Patch>
