@@ -17,7 +17,7 @@
 
     <GeneDef ParentName="CellInstabilityBase">
         <defName>Instability_Super</defName>
-        <label>super cell instability</label>
+        <label>extreme cell instability</label> <!--defName and label are different due to name change to make the structure more similar to other mods in the series-->
         <description>Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery.</description>
         <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
         <displayOrderInCategory>135.2</displayOrderInCategory>
@@ -28,14 +28,19 @@
           <CancerRate>7</CancerRate>
           <ImmunityGainSpeed>0.88</ImmunityGainSpeed>
         </statFactors>
+        <modExtensions>
+          <li Class="VEF.Genes.GeneExtension" MayRequire="vanillaracesexpanded.waster">	
+            <hideGene>True</hideGene>	
+          </li>
+        </modExtensions>
     </GeneDef>
 
     <GeneDef ParentName="CellInstabilityBase">
-        <defName>Instability_Extreme</defName>
-        <label>extreme cell instability</label>
+        <defName>Instability_Extreme</defName> <!--defName and label are different due to name change to make the structure more similar to other mods in the series-->
+        <label>severe cell instability</label>
         <description>Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery.</description>
         <iconPath>MBSG/Gene_ExtremeCellInstability</iconPath>
-        <displayOrderInCategory>135.1</displayOrderInCategory>
+        <displayOrderInCategory>135.001</displayOrderInCategory>
         <biostatMet>5</biostatMet>
         <biostatCpx>2</biostatCpx>
         <statFactors>
@@ -71,6 +76,11 @@
           <CancerRate>2</CancerRate>
           <ImmunityGainSpeed>0.98</ImmunityGainSpeed>
         </statFactors>
+        <modExtensions>
+          <li Class="VEF.Genes.GeneExtension" MayRequire="vanillaracesexpanded.waster">	
+            <hideGene>True</hideGene>	
+          </li>
+        </modExtensions>
     </GeneDef>
 
     <GeneDef ParentName="CellInstabilityBase">
