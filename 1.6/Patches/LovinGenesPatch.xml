@@ -16,11 +16,11 @@
             <operations>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="Libido_ExtremelyLow"]/lovinMTBFactor</xpath>
-                    <value><lovinMTBFactor>0.01</lovinMTBFactor></value>
+                    <value><lovinMTBFactor>0.1</lovinMTBFactor></value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="Libido_VeryLow"]/lovinMTBFactor</xpath>
-                    <value><lovinMTBFactor>0.1</lovinMTBFactor></value>
+                    <value><lovinMTBFactor>0.2</lovinMTBFactor></value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="Libido_AboveAverage"]/lovinMTBFactor</xpath>
@@ -28,11 +28,11 @@
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="Libido_VeryHigh"]/lovinMTBFactor</xpath>
-                    <value><lovinMTBFactor>2.5</lovinMTBFactor></value>
+                    <value><lovinMTBFactor>4</lovinMTBFactor></value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="Libido_SuperHigh"]/lovinMTBFactor</xpath>
-                    <value><lovinMTBFactor>5</lovinMTBFactor></value>
+                    <value><lovinMTBFactor>7</lovinMTBFactor></value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/GeneDef[defName="Libido_Hyper"]/lovinMTBFactor</xpath>

@@ -57,7 +57,7 @@
 			<AbilityDef MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</AbilityDef>
 		</descriptionHyperlinks>
         <modExtensions>
-			<li Class="VEF.Genes.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension" MayRequire="vanillaracesexpanded.highmate">
 				<hideGene>True</hideGene>
 			</li>
 		</modExtensions>
