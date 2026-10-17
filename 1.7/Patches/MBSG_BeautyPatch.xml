@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="Beauty_VeryUgly"]</xpath>
+        <value>
+            <exclusionTags>
+                <li>Angelic</li>
+            </exclusionTags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="Beauty_Ugly"]</xpath>
+        <value>
+            <exclusionTags>
+                <li>Angelic</li>
+                <li>Repulsive</li>
+            </exclusionTags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="Beauty_Pretty"]</xpath>
+        <value>
+            <exclusionTags>
+                <li>Angelic</li>
+                <li>Repulsive</li>
+            </exclusionTags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="Beauty_Beautiful"]</xpath>
+        <value>
+            <exclusionTags>
+                <li>Repulsive</li>
+            </exclusionTags>
+        </value>
+    </Operation>
+</Patch>

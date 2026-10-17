@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Highmate</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="VRE_Libido_VeryHigh"]/displayOrderInCategory</xpath>
+            <value><displayOrderInCategory>10.11</displayOrderInCategory></value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/StatDef[defName="SEX_IntimacyNeedRate"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="Libido_ExtremelyLow"]/lovinMTBFactor</xpath>
+                    <value><lovinMTBFactor>0.1</lovinMTBFactor></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="Libido_VeryLow"]/lovinMTBFactor</xpath>
+                    <value><lovinMTBFactor>0.2</lovinMTBFactor></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="Libido_AboveAverage"]/lovinMTBFactor</xpath>
+                    <value><lovinMTBFactor>1.25</lovinMTBFactor></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="Libido_VeryHigh"]/lovinMTBFactor</xpath>
+                    <value><lovinMTBFactor>4</lovinMTBFactor></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="Libido_SuperHigh"]/lovinMTBFactor</xpath>
+                    <value><lovinMTBFactor>7</lovinMTBFactor></value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneDef[defName="Libido_Hyper"]/lovinMTBFactor</xpath>
+                    <value><lovinMTBFactor>10</lovinMTBFactor></value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
